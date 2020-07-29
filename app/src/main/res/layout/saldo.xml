@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/dgsaldo"
+        android:layout_width="307dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="167dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginRight="61dp"
+        android:layout_marginBottom="106dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="Digite o cartão de passagem"
+        app:layout_constraintBottom_toTopOf="@+id/btsaldo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btsaldo"
+        android:layout_width="282dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="97dp"
+        android:layout_marginEnd="79dp"
+        android:layout_marginRight="79dp"
+        android:text="Consultar Saldo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dgsaldo" />
+
+    <TextView
+        android:id="@+id/lista1"
+        android:layout_width="286dp"
+        android:layout_height="109dp"
+        android:layout_marginTop="95dp"
+        app:layout_constraintTop_toBottomOf="@+id/btsaldo"
+        tools:layout_editor_absoluteX="50dp" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/texto1"
+        android:layout_width="361dp"
+        android:layout_height="188dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:text="Olá, bem-vindo ao sistema Appbus. Esse sistema tem o intuito de facilitar a vida de quem depende diariamente do transporte coletivo. Com esse sistema  você pode consultar Saldo, ver Historico, fazer recarga do mesmo, sem sair de casa ou do seu serviço. Acesse o Menu acima para as opções citadas aqui."
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="138dp" />
+
+    <TextView
+        android:id="@+id/texto2"
+        android:layout_width="308dp"
+        android:layout_height="210dp"
+        android:layout_marginTop="155dp"
+        android:layout_marginBottom="16dp"
+        android:text="Esse software foi criado por, Breno Augusto, Estudante de Engenharia de Software. Contato: brenoaugustoalves@gmail.com"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/texto1"
+        app:layout_constraintVertical_bias="0.541"
+        tools:layout_editor_absoluteX="32dp" />
+</android.support.constraint.ConstraintLayout>
